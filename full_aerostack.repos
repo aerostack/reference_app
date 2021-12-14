@@ -82,7 +82,7 @@ repositories:
   mission_control/safety_management:
     type: git 
     url: https://github.com/aerostack/safety_management
-    version: master
+    version: v5-libeccio
   mission_control/behavior_tree_interpreter:
     type: git 
     url: https://github.com/aerostack/behavior_tree_interpreter
