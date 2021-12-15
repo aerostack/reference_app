@@ -107,10 +107,6 @@ repositories:
     type: git 
     url: https://github.com/aerostack/quadrotor_gazebo_simulator
     version: v5-libeccio
-  simulation/quadrotor_simulator:
-    type: git 
-    url: https://github.com/aerostack/quadrotor_simulator
-    version: master
   simulation/px4_autopilot:
     type: git 
     url: https://github.com/aerostack/px4_autopilot
@@ -122,14 +118,6 @@ repositories:
   hardware_interface/gazebo_interface:
     type: git 
     url: https://github.com/aerostack/gazebo_interface
-    version: master
-  hardware_interface/tello_interface:
-    type: git 
-    url: https://github.com/aerostack/tello_interface
-    version: master
-  hardware_interface/bebop2_interface:
-    type: git 
-    url: https://github.com/aerostack/bebop2_interface
     version: master
   hardware_interface/pixhawk_interface:
     type: git 
@@ -203,26 +191,10 @@ repositories:
     type: git 
     url: https://github.com/aerostack/airplane_inspection_gazebo
     version: v5-libeccio
-  apps/basic_mission_quadrotor_simulator:
-    type: git 
-    url: https://github.com/aerostack/basic_mission_quadrotor_simulator
-    version: v5-libeccio
-  apps/teleoperation_quadrotor_simulator:
-    type: git 
-    url: https://github.com/aerostack/teleoperation_quadrotor_simulator
-    version: master
-  apps/visual_commands_tello:
-    type: git 
-    url: https://github.com/aerostack/visual_commands_tello
-    version: master
   apps/basic_mission_gazebo:
     type: git 
     url: https://github.com/aerostack/basic_mission_gazebo
     version: v5-libeccio    
-  apps/behavior_tree_quadrotor_simulator:
-    type: git 
-    url: https://github.com/aerostack/behavior_tree_quadrotor_simulator
-    version: master
   apps/rooms_exploration_gazebo:
     type: git 
     url: https://github.com/aerostack/rooms_exploration_gazebo
@@ -239,10 +211,6 @@ repositories:
     type: git 
     url: https://github.com/aerostack/warehouse_inventory_gazebo
     version: v5-libeccio
-  apps/behavior_tree_tello:
-    type: git 
-    url: https://github.com/aerostack/behavior_tree_tello
-    version: master
   apps/teleoperation_gazebo:
     type: git 
     url: https://github.com/aerostack/teleoperation_gazebo
@@ -255,14 +223,6 @@ repositories:
     type: git 
     url: https://github.com/aerostack/f330_pixhawk
     version: v5-libeccio
-  apps/teleoperation_bebop:
-    type: git 
-    url: https://github.com/aerostack/teleoperation_bebop
-    version: master
-  apps/basic_mission_bebop:
-    type: git 
-    url: https://github.com/aerostack/basic_mission_bebop
-    version: master
   apps/basic_mission_pixhawk_gazebo:
     type: git 
     url: https://github.com/aerostack/basic_mission_pixhawk_gazebo
@@ -303,10 +263,6 @@ repositories:
   deprecated/libraries/lib_pose:
     type: git 
     url: https://github.com/aerostack/lib_pose
-    version: master
-  deprecated/libraries/referenceframes:
-    type: git 
-    url: https://github.com/aerostack/referenceframes
     version: master
   deprecated/libraries/mav_control_rw:
     type: git 
