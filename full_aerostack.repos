@@ -95,10 +95,6 @@ repositories:
 #----------------------------------------------------------------------------
 # Simulation
 #----------------------------------------------------------------------------
-  simulation/quadrotor_gazebo_simulator:
-    type: git 
-    url: https://github.com/aerostack/quadrotor_gazebo_simulator
-    version: v5-libeccio
   simulation/px4_autopilot:
     type: git 
     url: https://github.com/aerostack/px4_autopilot
