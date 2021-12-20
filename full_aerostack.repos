@@ -34,7 +34,7 @@ repositories:
   behaviors/quadrotor_motion_with_platform_control:
     type: git 
     url: https://github.com/aerostack/quadrotor_motion_with_platform_control
-    version: master
+    version: v5-libeccio
   behaviors/swarm_interaction:
     type: git 
     url: https://github.com/aerostack/swarm_interaction
@@ -42,7 +42,7 @@ repositories:
   behaviors/operator_interaction:
     type: git 
     url: https://github.com/aerostack/operator_interaction
-    version: master
+    version: v5-libeccio
   behaviors/quadrotor_motion_with_df_control:
     type: git 
     url: https://github.com/aerostack/quadrotor_motion_with_df_control
@@ -50,7 +50,7 @@ repositories:
   behaviors/multi_sensor_fusion:
     type: git 
     url: https://github.com/aerostack/multi_sensor_fusion
-    version: master
+    version: v5-libeccio
   behaviors/quadrotor_motion_with_df_control:
     type: git 
     url: https://github.com/aerostack/quadrotor_motion_with_df_control
@@ -86,7 +86,7 @@ repositories:
   mission_control/behavior_tree_interpreter:
     type: git 
     url: https://github.com/aerostack/behavior_tree_interpreter
-    version: master
+    version: v5-libeccio
 
 #----------------------------------------------------------------------------
 # Executive
@@ -118,7 +118,7 @@ repositories:
   hardware_interface/gazebo_interface:
     type: git 
     url: https://github.com/aerostack/gazebo_interface
-    version: master
+    version: v5-libeccio
   hardware_interface/pixhawk_interface:
     type: git 
     url: https://github.com/aerostack/pixhawk_interface
@@ -190,34 +190,14 @@ repositories:
   apps/airplane_inspection_gazebo:
     type: git 
     url: https://github.com/aerostack/airplane_inspection_gazebo
-    version: v5-libeccio
-  apps/basic_mission_gazebo:
-    type: git 
-    url: https://github.com/aerostack/basic_mission_gazebo
-    version: v5-libeccio    
+    version: v5-libeccio   
   apps/rooms_exploration_gazebo:
     type: git 
     url: https://github.com/aerostack/rooms_exploration_gazebo
     version: v5-libeccio
-  apps/bridge_inspection_gazebo:
-    type: git 
-    url: https://github.com/aerostack/bridge_inspection_gazebo
-    version: v5-libeccio
-  apps/tower_inspection_gazebo:
-    type: git 
-    url: https://github.com/aerostack/tower_inspection_gazebo
-    version: v5-libeccio
-  apps/warehouse_inventory_gazebo:
-    type: git 
-    url: https://github.com/aerostack/warehouse_inventory_gazebo
-    version: v5-libeccio
   apps/teleoperation_gazebo:
     type: git 
     url: https://github.com/aerostack/teleoperation_gazebo
-    version: v5-libeccio
-  apps/fast_drone_gazebo:
-    type: git 
-    url: https://github.com/aerostack/fast_drone_gazebo
     version: v5-libeccio
   apps/f330_pixhawk:
     type: git 
@@ -227,15 +207,6 @@ repositories:
     type: git 
     url: https://github.com/aerostack/basic_mission_pixhawk_gazebo
     version: v5-libeccio
-  apps/smach_rooms_exploration_gazebo:
-    type: git 
-    url: https://github.com/aerostack/smach_rooms_exploration_gazebo 
-    version: master
-  apps/smach_mission_gazebo:
-    type: git 
-    url: https://github.com/aerostack/smach_mission_gazebo 
-    version: master
-
 
 #----------------------------------------------------------------------------
 # Deprecated
@@ -259,15 +230,11 @@ repositories:
   deprecated/libraries/lib_cvglogger:
     type: git 
     url: https://github.com/aerostack/lib_cvglogger
-    version: master
+    version: v5-libeccio
   deprecated/libraries/lib_pose:
     type: git 
     url: https://github.com/aerostack/lib_pose
-    version: master
-  deprecated/libraries/mav_control_rw:
-    type: git 
-    url: https://github.com/aerostack/mav_control_rw
-    version: master
+    version: v5-libeccio
 
 #----------------------------------------------------------------------------
 # Deprecated messages
