@@ -47,14 +47,6 @@ repositories:
     type: git 
     url: https://github.com/aerostack/quadrotor_motion_with_df_control
     version: v5-libeccio
-  behaviors/multi_sensor_fusion:
-    type: git 
-    url: https://github.com/aerostack/multi_sensor_fusion
-    version: v5-libeccio
-  behaviors/quadrotor_motion_with_df_control:
-    type: git 
-    url: https://github.com/aerostack/quadrotor_motion_with_df_control
-    version: v5-libeccio
 
 #----------------------------------------------------------------------------
 # Belief updaters
