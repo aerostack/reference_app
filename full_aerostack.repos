@@ -39,10 +39,6 @@ repositories:
     type: git 
     url: https://github.com/aerostack/swarm_interaction
     version: v5-libeccio
-  behaviors/operator_interaction:
-    type: git 
-    url: https://github.com/aerostack/operator_interaction
-    version: v5-libeccio
   behaviors/quadrotor_motion_with_df_control:
     type: git 
     url: https://github.com/aerostack/quadrotor_motion_with_df_control
