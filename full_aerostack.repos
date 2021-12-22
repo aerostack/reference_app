@@ -95,6 +95,10 @@ repositories:
     type: git 
     url: https://github.com/aerostack/px4_autopilot
     version: v5-libeccio
+  simulation/px4_simulator_plugin:
+    type: git 
+    url: https://github.com/aerostack/px4_simulator_plugin
+    version: v5-libeccio
     
 #----------------------------------------------------------------------------
 # Hardware interface
