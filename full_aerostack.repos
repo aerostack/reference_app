@@ -103,10 +103,6 @@ repositories:
 #----------------------------------------------------------------------------
 # Hardware interface
 #----------------------------------------------------------------------------
-  hardware_interface/gazebo_interface:
-    type: git 
-    url: https://github.com/aerostack/gazebo_interface
-    version: v5-libeccio
   hardware_interface/pixhawk_interface:
     type: git 
     url: https://github.com/aerostack/pixhawk_interface
