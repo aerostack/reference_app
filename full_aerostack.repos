@@ -59,6 +59,10 @@ repositories:
     type: git 
     url: https://github.com/aerostack/inventory_item_belief_updater
     version: v5-libeccio
+  belief_updaters/inventory_item_image_annotator:
+    type: git 
+    url: https://github.com/aerostack/inventory_item_image_annotator
+    version: v5-libeccio
     
 #----------------------------------------------------------------------------
 # Mission control
