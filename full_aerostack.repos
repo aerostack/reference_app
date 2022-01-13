@@ -195,6 +195,10 @@ repositories:
     type: git 
     url: https://github.com/aerostack/basic_mission_pixhawk_gazebo
     version: v5-libeccio
+  apps/warehouse_inventory_gazebo:
+    type: git 
+    url: https://github.com/aerostack/warehouse_inventory_gazebo
+    version: v5-libeccio
 
 #----------------------------------------------------------------------------
 # Deprecated
